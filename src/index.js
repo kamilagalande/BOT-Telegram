@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { PrismaClient } = require('@prisma/client');
 
-const token = '7018688142:AAFs4pmmvY_vRRey3xOaEUJIapNBjMB9a4k'; // Coloque seu token do BotFather aqui
+const token = 'Token do seu bot aqui';
 const bot = new TelegramBot(token, { polling: true });
 const prisma = new PrismaClient();
 
